@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="code.css">
+    <link rel="icon" href="Images/programming-languages-set-icons-vector-17866155.jpg">
+</head>
+<body>
+    <a href = "/verify1?name={{yname}}"><h2>Go Back</h2></a>
+    <div class="intro">
+        <img src = "Images/{{name}}.png">
+        <h1>{{name}}</h1>
+    </div>
+    <div class="desc">
+        <b>{{desc}}</b>
+    </div>
+    <div class="form">
+        <h2>Q&A SECTION</h2>
+        <form action="/coment?name={{name}}" method="post">
+            <label for="title"><b>Title:</b></label>
+            <input type="text" id="title" name="title">
+            <label for="comment"><b>Comment:</b></label>
+            <input type="text" id="comment" name="comment">
+            <button>Post</button>
+        </form>
+    </div>
+    <div class="post">
+        <div class="sub1">
+        </div>
+        <div class="sub2">
+        </div>      
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>

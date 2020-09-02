@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+body
+{
+    background-color:black;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: slategray;
+    height:65px;
+}
+.nav>img
+{
+    height:55px;
+    width:55px;
+    margin-left:55%;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    text-align: center;
+}
+h1
+{
+    font-family: 'Russo One';
+    font-size:310%;
+    color:white
+}
+a
+{
+    font-family: 'Londrina Solid';
+    font-size:190%;
+    margin-left: 9%;
+}
+.box
+{
+    display: grid;
+    grid-template-rows: repeat(3,380px);
+    grid-template-columns: repeat(3,32%);
+    margin-top: 4%;
+}
+.subox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid white;
+    margin-left:20%;
+    margin-bottom:5%;
+}
+.subox img
+{
+    width:91%;
+    height:140px;
+    margin-right: 16%;
+    margin-top: 7%;
+}
+p
+{
+    font-family: 'Londrina Solid';
+    font-size:140%;
+    color:white;
+}

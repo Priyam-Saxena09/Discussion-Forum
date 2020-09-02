@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+body
+{
+    background:url("Images/stock-photo-programming-code-abstract-technology-background-of-software-developer-and-computer-script-746652751.jpg");
+    background-size:112%;
+}
+form
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(255, 255, 255, 0.5);
+width:50%;
+margin-top: 11%;
+margin-left: 25%;
+}
+input
+{
+width:355px;
+margin-bottom: 4%;
+height:30px;
+}
+i
+{
+font-size: 115%;
+font-family: 'Sirin Stencil';
+position: absolute;
+left: 33%;
+}
+button
+{
+width:100px;
+background-color: cyan;
+height:40px;
+}
+h1
+{
+font-family: 'Aref Ruqaa';
+font-size:290%;
+}
+p
+{
+font-size: 115%;
+font-family: 'Sirin Stencil';
+}

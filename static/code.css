@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro img
+{
+    height:200px;
+    width:290px;
+}
+h1
+{
+    font-family: 'Russo One';
+    font-size:370%;
+}
+h2
+{
+    font-family: 'Russo One';
+    font-size:280%;
+}
+h3
+{
+    font-family: 'Russo One';
+    font-size:180%;
+    margin-left: 2%;
+}
+b
+{
+    font-family: 'Pangolin';
+    font-size:190%;
+}    
+.form,form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+.post
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left:10%;
+}
+.sub2
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+.sub1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#time
+{
+    margin-left: 2%;
+}
+input
+{
+    width:500%;
+    height:30px;
+    margin-bottom: 23%;
+}
+#comment
+{
+    height:70px;
+}
+button
+{
+    width:65%;
+    height:40px;
+    font-family: 'Russo One';
+    background-color: darkgreen;
+    font-size: 125%;
+}
+img
+{
+    width:50px;
+    height:50px;
+}
