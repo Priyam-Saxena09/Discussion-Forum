@@ -61,6 +61,11 @@ app.post("/come",upload.single(`images`),async(req,res) => {
             "back":"/signup"
         })
     })
+},(error,req,res,next) => {
+    res.render("404",{
+        "error":"Please upload your pic of .jpg extension.",
+        "back":"/signup"
+    })
 })
 
 app.get("/verify",async(req,res) => {
